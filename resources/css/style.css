@@ -21,7 +21,25 @@ html
 
 /*LOGO ICONS SETUP*/
 
+.row .logo
+{
+    height: 120px;
+    width: auto;
+    margin-top: 20px;
+    float: left;
+}
 
+
+/*END OF ICOS LOGO*/
+
+/*MAIN NAVIGATION*/
+
+.main-nav
+{
+    margin-top: 20px;
+   float: right;
+}
+/*END OF MAIN NAVIGATIOn*/
 
 
 
