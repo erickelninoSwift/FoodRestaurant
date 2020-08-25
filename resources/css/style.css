@@ -318,8 +318,8 @@ h3
 }
 .featurse-steps
 {
-    
-    margin-top: 30px;
+    margin-top: 50px;
+    background-color: #eae6e6;
 }
 
 .app-screens
@@ -329,6 +329,10 @@ h3
     padding-right: 3%;
 }
 
+.howitworks:last-of-type
+{
+    margin-bottom: 70px;
+}
 .howitworks
 {
     margin-bottom: 60px;
@@ -349,6 +353,20 @@ h3
     margin-right: 5px;
 }
 
+.clearfix
+{zoom:1}
+
+.clearfix:after
+{
+    content: ".";
+    clear: both;
+    display: block;
+    height: 0;
+    visibility: hidden;
+}
+    
+}
+
 .howitworks p
 {
     padding-top: 12.5px;
@@ -357,8 +375,28 @@ h3
 .step-box .howitworks
 {
     padding-top: 17.5px;
+   
 }
+
+.step-box .howitworks:first-child
+{
+  
+    margin-bottom: 50px;
+}
+
+.step-box .howitworks:last-child
+{
+  
+    margin-top: 10px;
+}
+
+.btn-app img
+{
+    height: 50px;
+    width: auto;
+    margin-right: 10px;
     
+}
 
 
 
