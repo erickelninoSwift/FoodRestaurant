@@ -419,4 +419,28 @@ h3
     
 }
 
+.icon-small
+{
+    color: #ff9f43;
+    height: 50px;
+    width: 50px;
+    display: inline-block;
+    
+}
+
+.city-features a:link,
+.city-features a:visited
+{
+    text-decoration: none;
+    color: #ff9f43;
+    padding-bottom: 1px;
+    transition: border-bottom 0.9s ,color 0.4s;
+}
+.city-features a:hover,
+.city-features a:active
+{
+    color: rgba(121, 64, 9, 0.87);
+    border-bottom: 1px solid transparent;
+}
+
 
