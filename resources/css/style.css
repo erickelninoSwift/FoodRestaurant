@@ -188,7 +188,7 @@ BUTTONS SETUP
 }
 h2
 {
-    font-size: 60px;
+    font-size: 50px;
     font-weight: 300;
     text-transform: uppercase;
     letter-spacing: 1px;
@@ -398,6 +398,25 @@ h3
     
 }
 
+/* CURRENT CITY SECTION */
 
+.box img
+{
+    width: 100%;
+    height: auto;
+    margin-bottom: 10px;
+    
+}
+.city-feature
+{
+    margin-bottom: 5px;
+}
+
+.city-features i
+{
+    height: 30px;
+    width: 30px;
+    
+}
 
 
