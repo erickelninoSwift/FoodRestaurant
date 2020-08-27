@@ -89,6 +89,7 @@ header
     background-size: cover;
     background-position: center;
     opacity: 7.0;
+    background-attachment: fixed;
 }
 
 h1
@@ -318,7 +319,7 @@ h3
 }
 .featurse-steps
 {
-    margin-top: 50px;
+    padding-top: 40px;
     background-color: #eae6e6;
 }
 
@@ -446,7 +447,50 @@ h3
 
 .section-testimonials
 {
+    background-image:linear-gradient(rgba(0, 0, 0, 0.80),rgba(0, 0, 0, 0.80)) , url(/resources/img/back-customers.jpg);
+    background-size: cover;
+    color: #fff;
+    background-attachment: fixed;
+    padding-top: 30px;
+    margin-top: 20px;
     
 }
+blockquote:before
+{
+    content: "\201C";
+    font-style: italic;
+    font-size: 400%;
+    display: block;
+    position:absolute;
+    top: 0;
+    left: 0;
+}
 
+
+
+
+blockquote
+{
+    padding: 2%;
+    font-style: italic;
+    line-height: 140%;
+    position: relative;
+    
+}
+cite
+{
+    font-size: 90%;
+    margin-top: 20px;
+    display: block;
+}
+
+cite img
+{
+    height: 70px;
+    width: auto;
+    border-radius: 50%;
+    margin-right = 10px;
+    vertical-align: middle;
+    margin-right: 10px;
+}
 
