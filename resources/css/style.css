@@ -11,9 +11,10 @@ BASIC SETUP*/
 
 html
 {
-    font-size: 20px;
-    font-weight: 300;
+    font-size: 18px;
+    font-weight: 150;
     text-rendering: optimizeLegibility;
+    
 }
 /*ICONS */
 
@@ -493,4 +494,113 @@ cite img
     vertical-align: middle;
     margin-right: 10px;
 }
+
+
+
+
+.plan-features
+{
+    background-color: #eae6e6;
+}
+
+
+.plan-box
+{
+    background-color: #fff;
+    border-radius: 5px;
+    width: 90%;
+    margin-left: 5%;
+    height: 350px;
+    
+    
+}
+
+.plan-box h3
+{
+     text-align: center;
+}
+
+.plan-box div
+{
+    padding-left: 15%;
+    padding-right: 15%;
+   
+}
+
+.plan-box div:first-child
+{
+    background-color: rgba(169, 169, 169, 0.1);
+    padding-bottom: 10px;
+    padding-top: 10px;
+   
+}
+
+
+.plan-box div:last-child
+{
+    padding-left: 15%;
+    padding-right: 15%;
+    padding-bottom: 10px;
+    padding-top: 10px;
+   
+   
+}
+
+
+
+
+.price
+{
+    font-size: 250%;
+    margin-bottom: 10px;
+    font-weight: 100;
+    color: #ea801b;
+     text-align: center;
+    
+}
+
+.plan-price-meal
+{
+    margin-bottom: 15px;
+    font-size: 80%;
+     text-align: center;
+}
+
+.price span
+{
+    font-size: 50%;
+   
+    font-weight: 300%;
+}
+
+.list
+{
+    padding-top: 10px;
+    margin-left: 20px;
+     
+}
+
+.list .list-element
+{
+    line-height: 30px;
+    
+}
+.list li
+{
+    color: darkgrey;
+    list-style: none;
+}
+.btn-pressed
+{
+    padding-top: 10px;
+    padding-bottom: 10px;
+    text-align: center;
+}
+
+.list-element .small-icon
+{
+    padding-right: 20px;
+    color: #ff9f43;
+}
+
 
